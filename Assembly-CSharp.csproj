@@ -62,9 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Playfield.cs" />
-    <Compile Include="Assets\Spawner_Script.cs" />
-    <Compile Include="Assets\Tetronimo_Manager.cs" />
+    <Compile Include="Assets\Scripts\pauseControl.cs" />
+    <Compile Include="Assets\Scripts\Playfield.cs" />
+    <Compile Include="Assets\Scripts\Spawner_Script.cs" />
+    <Compile Include="Assets\Scripts\Tetronimo_Manager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/dance/Desktop/Tetris/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

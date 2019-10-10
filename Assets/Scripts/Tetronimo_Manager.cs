@@ -40,7 +40,6 @@ public class Tetronimo_Manager: MonoBehaviour
     }
     
     void Update() {
-        Debug.Log(sinceLastFall);
         sinceLastFall += Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
             transform.position += new Vector3(-1, 0, 0);
